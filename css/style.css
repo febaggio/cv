@@ -1,0 +1,114 @@
+/* ------------------General tags------------------------------- */
+body {
+  background-color: #f2ecd8;
+  border-color: #403c38;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 4px;
+  color: #403c38;
+
+  font-family: "Exo", sans-serif;
+  margin: 4px;
+  padding: 8px;
+}
+
+h1 {
+  color: #f2ecd8;
+  margin: 0;
+  padding: 0;
+  /*font-family: 'Permanent Marker', cursive;*/
+}
+
+h3 {
+  color: #f2ecd8;
+  margin: auto;
+  padding: 0px;
+  text-indent: 4px;
+}
+
+hr {
+  border-color: #403c38;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  height: 0;
+  width: 50%;
+}
+
+table {
+  margin: 10px 0px;
+  padding: 2px;
+  /*border-bottom: 2px solid #403c38;
+  border-collapse: collapse;*/
+  padding: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* -----------------Specific classes------------------------- */
+
+.abstract {
+  text-align: center;
+}
+
+.h3_filler {
+  background-color: #f8615a;
+  border-color: #f8615a;
+  border-radius: 0px 5px 5px 0px;
+  border-style: solid solid solid hidden;
+  display: inline-block;
+  height: 24.96px;
+  left: 100px;
+  margin-top: 0px;
+  padding: 0px;
+  position: absolute;
+  width: calc(100% - 103px);
+}
+
+.h3_title {
+  background-color: #395bbf;
+  border-color: #395bbf;
+  border-radius: 5px 0px 0px 5px;
+  border-style: solid hidden solid solid;
+  display: inline-block;
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
+}
+
+.icon {
+  height: 24px;
+  position: absolute;
+  right: 5px;
+}
+
+.subtitle {
+  background-color: #403c38;
+  border-color: #403c38;
+  border-radius: 0px 0px 5px 5px;
+  border-style: hidden solid solid solid;
+  color: #f2ecd8;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+.title {
+  background-color: #395bbf;
+  border-color: #403c38;
+  border-radius: 5px 5px 0px 0px;
+  border-style: solid solid hidden solid;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.title_icon {
+  display: inline-block;
+  height: 24px;
+}
+
+.title_name {
+  display: inline-block;
+}
